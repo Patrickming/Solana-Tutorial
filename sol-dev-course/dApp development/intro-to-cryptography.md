@@ -191,6 +191,6 @@ console.log(
 
 我们现在已经学习了 Solana 上的密钥对以及如何安全地存储私钥。在下一章节中，我们将使用它们！
 
-### 完成实验了吗？
+## 完成实验了吗？
 
 将代码推送到 GitHub 并[告诉我们你对这节课的看法吧](https://form.typeform.com/to/IPH0UGz7#answers-lesson=ee06a213-5d74-4954-846e-cba883bc6db1)！
