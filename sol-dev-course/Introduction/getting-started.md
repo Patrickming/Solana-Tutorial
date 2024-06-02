@@ -1,4 +1,10 @@
-# [Course Guide](https://www.soldev.app/course/getting-started)
+
+
+| 目标                                                         | 实验 |
+| ------------------------------------------------------------ | :--: |
+| 1. 了解什么是 web3<br/>2. 了解什么是 Solana<br/>3. 了解本课程的结构<br/>4. 了解如何从本课程中获得最大收益 |  无  |
+
+# [课程概述](https://www.soldev.app/course/getting-started)
 
 ## 欢迎！
 

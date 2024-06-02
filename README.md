@@ -1,4 +1,4 @@
-![solana-logo](./assets/solana-logo.png)
+<img src="./assets/solana.png" alt="solana" style="zoom:150%;" />
 
 :globe_with_meridians:[English]():globe_with_meridians:	
 
@@ -13,7 +13,7 @@
 
 ### 1 介绍
 
-#### 模块一：介绍 
+#### 一、 介绍 
 
 **1.开始：**[代码]() | [教程]() 
 
@@ -21,7 +21,7 @@
 
 ### 2 dApp开发
 
-#### 模块一：加密和 Solana 客户端简介
+#### 一、加密和 Solana 客户端简介
 
 **1.密码学基础知识：**[代码]() | [教程]() 
 
@@ -31,7 +31,7 @@
 
 ### 3 链上程序开发
 
-#### 模块一：链上程序开发简介
+#### 一、链上程序开发简介
 
 **1.链上程序开发简介：**[代码]() | [教程]() 
 
@@ -39,7 +39,7 @@
 
 
 
-#### 模块二：Anchor程序开发
+#### 二、Anchor程序开发
 
 **1.链上程序开发简介：**[代码]() | [教程]() 
 
@@ -72,6 +72,7 @@
 5. 资源
 
    1. TinTinLand solana资源大全 [Solana 开发者资源库 (notion.so)](https://www.notion.so/Solana-fca856aad4e5441f80f28cc4e015ca98)
+   1. [SolDev](https://www.soldev.app/)
 
 6. 论坛
 
