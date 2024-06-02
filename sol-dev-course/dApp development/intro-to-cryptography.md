@@ -93,7 +93,7 @@ console.log(`The secret key is: `, keypair.secretKey);
 
 如果你已有想使用的密钥对，可以从文件系统或 `.env` 文件中存储的现有私钥加载`密钥对`。在 node.js 中，`@solana-developers/helpers` npm包提供了一些额外的函数：
 
-```
+```bash
 npm i @solana-developers/helpers
 ```
 
@@ -194,3 +194,29 @@ console.log(
 ## 完成实验了吗？
 
 将代码推送到 GitHub 并[告诉我们你对这节课的看法吧](https://form.typeform.com/to/IPH0UGz7#answers-lesson=ee06a213-5d74-4954-846e-cba883bc6db1)！
+
+
+
+## 注意事项！
+
+1. **随后的每一节[注意事项](#注意事项)的设置和规则都会延续**
+
+   1. 实验中的目录结构并未按教程来，而是单独放在相应目录文件夹的`/labs`下
+   2. 与实验中使用的包管理工具不同，为`pnpm`
+
+2. **根据实际运行时报错结果，对实验代码进行修改：**
+
+   1. 在运行实验时需要下载 `dotenv` 依赖
+
+      ```bash
+      pnpm i dotenv
+      ```
+
+   2. 将`import "dotenv/config"` 替换为 
+
+        ```ts
+         import dotenv from 'dotenv';
+         dotenv.config();
+        ```
+
+   3. ~~在`package.json` 中添加  `"type": "module"`~~

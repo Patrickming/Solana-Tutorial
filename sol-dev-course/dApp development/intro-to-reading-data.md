@@ -192,3 +192,12 @@ console.log(
 ## 完成实验了吗？
 
 将代码推送到 GitHub，并告诉我们你对这节课的看法吧！
+
+## 注意事项！
+
+1. 我更改了代码以及添加了注释 请在仓库中查看代码详情
+2. 在```const connection = new Connection("https://api.devnet.solana.com", "confirmed");```中https://api.devnet.solana.com是官方rpc，很卡会失败所以一般不用它 而是选用第三方rpc服务商比如说：
+   1. [Helius - The Developer Platform for Solana](https://dev.helius.xyz/dashboard/app)
+   2. [QuickNode - Home](https://dashboard.quicknode.com/)
+
+这里我把rpc的api粘到了`.env`文件中，因为一般rpc也不公开（免费的有配额限制，付费的就 额...嗯）
