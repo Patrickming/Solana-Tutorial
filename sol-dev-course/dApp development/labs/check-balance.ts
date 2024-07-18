@@ -5,7 +5,7 @@ import { getKeypairFromEnvironment } from "@solana-developers/helpers";
 
 // const publicKey = new PublicKey('<you pubkey>');// 写死公钥 但这样会被其他人看到
 
-// // 输入公钥的形式加载 npx esrun check-balance.ts (某钱包地址)
+// // 输入公钥的形式加载 npx esrun check-balance.ts (某钱包地址) 这里替换为下面的读取，不输入了
 // const suppliedPublicKey = process.argv[2];
 // if (!suppliedPublicKey) {
 //   throw new Error("Provide a public key to check the balance of!");
