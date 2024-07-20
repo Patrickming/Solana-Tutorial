@@ -1066,3 +1066,4 @@ https://explorer.solana.com/tx/3AMbyyiBd8PewKomVomwsj6QeZMHCk2e4PNLEnAmvTJGzT2Ae
 2. 加了很多方法的源码
 3. 这一章与前一版教程出入很大。建议都看一遍
 4. 查看前一版的挑战代码参考
+5. 这一章的代码，在上传代币元数据的时候，重复上传会报错（即便设置可以更改）（还没研究）

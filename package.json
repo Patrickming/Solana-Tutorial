@@ -1,5 +1,6 @@
 {
 	"dependencies": {
+		"@metaplex-foundation/js": "^0.20.1",
 		"@metaplex-foundation/mpl-token-metadata": "2",
 		"@solana-developers/helpers": "^2.3.0",
 		"@solana/spl-token": "^0.4.8",
