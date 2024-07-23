@@ -9,7 +9,8 @@ import {
     clusterApiUrl,
     sendAndConfirmTransaction,
 } from "@solana/web3.js";
-import * as dotenv from "dotenv";
+import dotenv from 'dotenv';
+dotenv.config();
 import { getKeypairFromEnvironment } from "@solana-developers/helpers";
 
 // 定义使用的集群名称为开发网络
@@ -32,7 +33,8 @@ const payer = getKeypairFromEnvironment("SECRET_KEY");
 console.log(`🔑 Loaded keypair ${payer.publicKey.toBase58()}!`);
 
 // 创建与 Solana 集群的连接
-const connection = new Connection(clusterApiUrl(CLUSTER_NAME));
+let DEVNET_RPC = process.env.DEVNET_RPC || ''
+const connection = new Connection(DEVNET_RPC, "confirmed");
 console.log(`⚡️ Connected to Solana ${CLUSTER_NAME} cluster!`);
 
 // 注意：第一次可能不会立即生效，因为 await 在 Lamports 确认之前就返回了。
